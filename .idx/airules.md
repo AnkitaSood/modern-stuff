@@ -14,7 +14,7 @@ You MUST adhere to these rules at all times. Failure to do so results in a poorl
 // CORRECT
 @Component({
   selector: 'app-example',
-  imports: [CommonModule],
+  imports: [],
   template: `...`
 })
 export class ExampleComponent {}
@@ -24,7 +24,7 @@ export class ExampleComponent {}
 // INCORRECT
 @Component({
   selector: 'app-example',
-  imports: [CommonModule],
+  imports: [],
   template: `...`,
   standalone: true, // <-- DO NOT USE THIS
 })
@@ -80,8 +80,7 @@ Under no circumstances should you ever use the following outdated patterns:
 - **DO NOT USE** `NgClass` or `[ngClass]`. Use `[class]` bindings.
 - **DO NOT USE** `NgStyle` or `[ngStyle]`. Use `[style]` bindings.
 - **DO NOT USE** `@Input()` or `@Output()` decorators. Use `input()` and `output()` functions.
-
----
+-**DO NOT USE** import CommonModule. Import the appropriate Standalone component or Directive from `@angular/core` instead.
 
 # Detailed Best Practices
 
