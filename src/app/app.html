@@ -6,4 +6,9 @@
   </ul>
 </nav>
 
+<div class="theme-toggle-container">
+  <button (click)="toggleTheme()">Toggle Theme</button>
+  <p>Current Theme: {{ currentTheme() }}</p>
+</div>
 <router-outlet />
+

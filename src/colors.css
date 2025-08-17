@@ -1,0 +1,31 @@
+.dark {
+    --color-foreground: #f0f0f0;
+    --color-background: #082041;
+    --color-button-foreground: #2b2b2b;
+    --color-button-background: #f4ce3f;
+    --color-outlines: #ffffff;
+    --color-borders: #444444;
+    --color-overlay: #000000;
+    --color-overlay-rgb: 0 0 0;
+    --color-card-foreground: #ffffff;
+    --color-card-background: #d73a34;
+    --gradient-card-background: radial-gradient(rgba(115, 124, 62, 1), rgba(58, 64, 47, 1) 100%);
+    --color-background-alt: #0b2d5c;
+
+}
+
+
+.light {
+    --color-foreground: #ffffff;
+    --color-background: #0671ba;
+    --color-button-foreground: #000000;
+    --color-button-background: #ffffff;
+    --color-outlines: #ffffff;
+    --color-borders: #ed2837;
+    --color-overlay: #ffffff;
+    --color-overlay-rgb: 255 255 255;
+    --color-card-foreground: #111111;
+    --color-card-background: #ffffff;
+    --gradient-card-background: #FFFFFF;
+    --color-background-alt: #0783d8;
+}
