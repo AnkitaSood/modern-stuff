@@ -1,0 +1,11 @@
+:host {
+
+    ul {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+    ul {
+        list-style-type: none;
+      }
+}

@@ -3,12 +3,9 @@
     <li><a routerLink="/home">Home</a></li>
     <li><a routerLink="/about">About</a></li>
     <li><a routerLink="/contact">Contact</a></li>
+    <app-theme-selector/>
   </ul>
 </nav>
 
-<div class="theme-toggle-container">
-  <button (click)="toggleTheme()">Toggle Theme</button>
-  <p>Current Theme: {{ currentTheme() }}</p>
-</div>
 <router-outlet />
 
